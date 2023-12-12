@@ -1,0 +1,117 @@
+/* Global styles */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: 200;
+    background-color: antiquewhite;
+
+    color: rgb(3, 10, 79);
+    background-image: url(file:///Users/shayejackson/Desktop/IS%20201%20Final%20Project/project/cats.jpeg);
+}
+
+a {
+    color: darkred;
+}
+
+a:visited {
+    color: darkorchid;
+    font-size: 300px;
+}
+
+
+/* Header 1 styles */
+h1 {
+    font-size: xxx-large;
+    font-family: cursive;
+    color: rgb(219, 15, 189);
+    outline: auto;
+    outline-style: dotted;
+    outline-color: orange;
+    text-align: center;
+}
+
+/* Header 4 styles */
+h4 {
+    font-weight: 800;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(18, 141, 141);
+    outline-style: auto;
+}
+
+h4:hover {
+    text-decoration: line-through;
+    font-size: xx-large;
+    font-style: italic;
+    background-color: honeydew;
+}
+
+/* Video container styles */
+body.video-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+body {
+    background-color: white;
+    color: black; /* Set the text color to ensure readability */
+}
+.section-with-white-background {
+    background-color: rgb(241, 198, 226);
+    color: black; /* Set the text color to ensure readability */
+}
+.styled-div {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+}
+
+#div1 {
+   font-size: medium;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   background-color: aliceblue;
+   background-size: contain;
+}
+
+#div2 {
+    font-family: cursive;
+    font-size: small;
+    outline: auto;
+    outline-style: groove;
+    outline-color: rgb(0, 191, 255);
+    align-items: center;
+    text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh; /* Adjust the height as needed */
+}
+.centered-image {
+    max-width: 100%; /* Ensure the image doesn't exceed the container width */
+    height: auto; /* Maintain aspect ratio */
+    display: inline-block; /* Prevents extra space around the image */
+    align-items: center;
+    border-image: space;
+}
