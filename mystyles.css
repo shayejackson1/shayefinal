@@ -1,4 +1,4 @@
-/* Global styles */
+
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: x-large;
@@ -26,7 +26,7 @@ h1 {
     color: rgb(219, 15, 189);
     outline: auto;
     outline-style: dotted;
-    outline-color: orange;
+    outline-color: rgb(255, 255, 255);
     text-align: center;
 }
 
@@ -58,7 +58,7 @@ body.video-body {
 
 .video-container {
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    padding-bottom: 56.25%; 
     height: 0;
     overflow: hidden;
 }
@@ -95,10 +95,10 @@ body {
 
 #div2 {
     font-family: cursive;
-    font-size: small;
+    font-size: medium;
     outline: auto;
     outline-style: groove;
-    outline-color: rgb(0, 191, 255);
+    outline-color: rgb(236, 166, 209);
     align-items: center;
     text-align: center;
 }
@@ -106,12 +106,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40vh; /* Adjust the height as needed */
+    height: 30vh; /* Adjust the height as needed */
 }
 .centered-image {
     max-width: 100%; /* Ensure the image doesn't exceed the container width */
     height: auto; /* Maintain aspect ratio */
-    display: inline-block; /* Prevents extra space around the image */
+    display: inline-block; 
     align-items: center;
     border-image: space;
+   
 }
