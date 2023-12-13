@@ -6,7 +6,7 @@ body {
     background-color: antiquewhite;
 
     color: rgb(3, 10, 79);
-    background-image: url(/cats.jpeg);
+    background-image: url(cats.jpeg);
 }
 
 a {
